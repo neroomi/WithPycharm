@@ -96,3 +96,70 @@ while whilelist:  # 이건 while True라는 의미
     print(whilelist.pop())   # 이렇게 해서 리스트가 비면 False가 되니까
     print('whilelist - ', whilelist)
 print('while - end')
+
+
+
+# 난수를 발생시켜
+
+import random
+ran = random.random()  # 0~1 사이의 난수를 발생시키는데(실수형)
+print('random -', ran)
+
+'''
+숫자 범위 : 1~10
+내가 입력한 숫자 > 난수: 더 작은 수 입력
+내가 입력한 숫자 < 난수: 더 큰 수 입력
+'''
+rand_num = random.randint(1, 10)
+while True:
+    guess_num = int(input('예상 숫자를 입력하세요: '))
+    if rand_num == guess_num:
+        print('success')
+        break
+    elif rand_num > guess_num:
+        print('더 큰 수를 입력하세요')
+    else:
+        print('더 작은 수를 입력하세요')
+
+
+'''
+>>>> GuessGAME
+1 ~ 100 사이의 난수를 발생시킨다
+도전횟수는 20회 제한
+출력 결과로는
+> 정답 시도횟수
+> 정답
+'''
+
+### 다시 확인하기 ###
+
+from random import randint
+
+rand_num = random.randint(1, 101)  ## randint에서 (a, b) b 숫자를 포함?
+try_times = 1
+while try_times <= 20:
+    guess_num = int(input('예상 숫자를 입력하세요: '))
+    if rand_num == guess_num:
+        print('success')
+        break
+    elif rand_num > guess_num:
+        print('더 큰 수를 입력하세요')
+    elif rand_num < guess_num:
+        print('더 작은 수를 입력하세요')
+    try_times += 1
+if guess_num == rand_num:
+    print('정답 시도횟수 {}'.format(try_times))
+    print('정답 {}'.format(rand_num))
+else:
+    print('정답 {}'.format(rand_num))
+
+
+
+
+# random choices()
+dataset = list(range(1, 10001))
+print(dataset)
+
+# 모집단 dataset에서 k개의 데이터를 샘플링하고 싶다면?
+train = random.choices(dataset, k = 10)
+print('sample dataset -', train)

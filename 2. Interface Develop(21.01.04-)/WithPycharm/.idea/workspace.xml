@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e3dc562-1376-4709-b414-300f6c19e97a" name="Default Changelist" comment="test1">
-      <change afterPath="$PROJECT_DIR$/VariableDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digital/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digital/python/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digital/python/package_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greeting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loop_statement.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2. Interface Develop(21.01.04)/2.Interface Develop(21.01.04).assets/image-20210105102432071.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2. Interface Develop(21.01.04)/2.Interface Develop(21.01.04).assets/image-20210106134551362.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2. Interface Develop(21.01.04)/2.Interface Develop(21.01.04).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2. Interface Develop(21.01.04)/VariableDemo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2. Interface Develop(21.01.04)/greeting.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/loop_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loop_state.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609983590570</updated>
       <workItem from="1609983643939" duration="4228000" />
-      <workItem from="1609992508716" duration="8846000" />
+      <workItem from="1609992508716" duration="10908000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1609984823749</created>
@@ -170,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609987665383</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20210107">
+      <created>1610001910260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610001910261</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

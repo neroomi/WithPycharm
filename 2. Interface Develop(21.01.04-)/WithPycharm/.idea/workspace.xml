@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e3dc562-1376-4709-b414-300f6c19e97a" name="Default Changelist" comment="test1">
-      <change afterPath="$PROJECT_DIR$/loop_statement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2. Interface Develop(21.01.04)/2.Interface Develop(21.01.04).assets/image-20210105102432071.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2. Interface Develop(21.01.04)/2.Interface Develop(21.01.04).assets/image-20210106134551362.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop_state.py" beforeDir="false" />
-    </list>
+    <list default="true" id="9e3dc562-1376-4709-b414-300f6c19e97a" name="Default Changelist" comment="20210107" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +57,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.function">
+  <component name="RunManager" selected="Python.package_function">
     <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WithPycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609983590570</updated>
       <workItem from="1609983643939" duration="4228000" />
-      <workItem from="1609992508716" duration="10908000" />
+      <workItem from="1609992508716" duration="11093000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1609984823749</created>
@@ -169,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610001910261</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20210107">
+      <created>1610024676361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610024676363</updated>
+    </task>
+    <task id="LOCAL-00005" summary="20210107">
+      <created>1610024763774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610024763774</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

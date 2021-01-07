@@ -36,7 +36,7 @@ for i in range(2,10):
     for j in range(1, 10):
         print('{} * {} = {}'.format(i, j, (i*j)), end='\t')
     print()
-        if i == 5:
+    if i == 5:
             break
 
 string ='''동해물과 백두산이 마르고 닳도록
@@ -73,7 +73,7 @@ enumerate
 인덱스 번호와 컬렉션 요소를 확인할 수 있다
 '''
 
-booklist = ['SQL', 'R', "TEXT-MINING', 'NLP', 'DATA-MINING', 'PYTHON', 'DJANGO']
+booklist = ['SQL', 'R', 'TEXT-MINING', 'NLP', 'DATA-MINING', 'PYTHON', 'DJANGO']
 for idx, book in enumerate(booklist):
     print('index - {}, value = {}'.format(idx, book))
 
